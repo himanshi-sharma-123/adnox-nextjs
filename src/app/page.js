@@ -35,12 +35,7 @@ export default function Home() {
           <li>contact us</li>
         </ul>
       </div>
-      <div className={styles.icons}>
-        <p className={styles.icon}>
-          <FontAwesomeIcon icon={faSearch} />
-          Search
-        </p>
-      </div>
+
       <div className={styles.item}>
         <Image src={logo} className={styles.img} />
       </div>
