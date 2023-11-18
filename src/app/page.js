@@ -9,6 +9,8 @@ import image5 from "public/image5.png";
 import image6 from "public/image6.png";
 import image7 from "public/image7.png";
 import image8 from "public/image8.png";
+import { faSearch, faCoffee } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Home() {
   return (
@@ -22,6 +24,22 @@ export default function Home() {
           <li>ISO 20022</li>
           <li>20,000 Customers</li>
         </ul>
+      </div>
+      <div className={styles.listHeader}>
+        <ul className={styles.header}>
+          <li>home</li>
+          <li>company</li>
+          <li>services</li>
+          <li>resources</li>
+          <li>shop</li>
+          <li>contact us</li>
+        </ul>
+      </div>
+      <div className={styles.icons}>
+        <p className={styles.icon}>
+          <FontAwesomeIcon icon={faSearch} />
+          Search
+        </p>
       </div>
       <div className={styles.item}>
         <Image src={logo} className={styles.img} />
