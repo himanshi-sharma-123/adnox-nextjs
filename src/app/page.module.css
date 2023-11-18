@@ -5,6 +5,28 @@
   align-items: center;
 }
 
+.listContainer {
+  position: absolute;
+  margin-top: 48px;
+  margin-right: 700px;
+}
+.list {
+  position: relative;
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.sublist {
+  position: absolute;
+  list-style: none;
+  display: flex;
+  gap: 140px;
+  font-size: small;
+}
+
 .item {
   flex: 1;
   display: flex;

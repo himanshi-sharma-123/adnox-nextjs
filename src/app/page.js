@@ -13,9 +13,20 @@ import image8 from "public/image8.png";
 export default function Home() {
   return (
     <div className={styles.container}>
+      <div className={styles.listContainer}>
+        <ul className={styles.list}>
+          <li>Industry Standard</li>
+          <li>Trusted By</li>
+        </ul>
+        <ul className={styles.sublist}>
+          <li>ISO 20022</li>
+          <li>20,000 Customers</li>
+        </ul>
+      </div>
       <div className={styles.item}>
         <Image src={logo} className={styles.img} />
       </div>
+
       <div className={styles.floatLeft}>
         <Image src={image1} className={styles.img1} />
         <Image src={image2} className={styles.img2} />
